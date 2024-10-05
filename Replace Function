@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+       // const y='2024'
+        
+        //document.write("INV"+y.padStart(10,"0"))
+      
+       
+        //let x =657;
+       
+        //let y = new Date();
+        //let inv="INV"+y.getFullYear()+String(x).padStart(5,"0");
+        //document.write(inv);
+        let x = "My name is Shadin.I am from Sreepur,Gazipur.I study at CSE department in Uttara"
+       document.write(`Main Paragraph:${x}<br>`);
+        let word=prompt("Word:");
+        let replace=prompt("replace Word:");
+        document.write(`Search Word:${word}<br>`);
+        
+       let a=x.replaceAll(word,replace);
+       if(x.includes(word)){
+        document.write("Found<br>")
+       }
+       else{
+        document.write(`Not Found <br>`)
+
+       }
+       document.write(`Replace Word:${replace}<br>`);
+       
+    document.write(`Find the Paragraph:${a}`)
+
+
+    </script>
+    
+</body>
+</html>
